@@ -1178,7 +1178,7 @@ static const char *strMainNetDNSSeed[][2] = {
     // {"xurious.com", "dnsseed.ltc.xurious.com"},
     // {"koin-project.com", "dnsseed.koin-project.com"},
     // {"weminemnc.com", "dnsseed.weminemnc.com"},
-    {"cgxtools.com", "127.0.0.1"},
+    {"cgxtools.com", "39.59.209.207"},
     {NULL, NULL}
 };
 
