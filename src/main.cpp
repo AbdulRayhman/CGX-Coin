@@ -1095,8 +1095,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 3.5 * 24 * 60 * 60; // Cgxcoin: 3.5 days
-static const int64 nTargetSpacing = 2.5 * 60; // Cgxcoin: 2.5 minutes
+static const int64 nTargetTimespan = 15 * 24 * 60 * 60; // Cgxcoin: 15 days
+static const int64 nTargetSpacing = 1 * 60; // Cgxcoin: 1 minute
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
